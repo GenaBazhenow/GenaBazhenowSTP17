@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>DOM - аренда жилья</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+<header>
+
+    <nav>
+        <a class="menu m-one" href="index.html" data-title="главная">главная</a>
+        <a class="menu m-two" href="ads.html" data-title="объявления">объявления</a>
+        <a class="menu m-three" href="about.html" data-title="о нас">о нас</a>
+        <a class="menu m-four" href="reg.html" data-title="регистрация">Регистрация</a>
+    </nav>
+
+</header>
+
+
+<main>
+       <div id="login_container">
+        <div id="form_container">
+            <p class="login-text">Авторизация на сайте</p>
+            <form method='POST'>
+                <input type='text' onFocus="if(this.value=='Логин')this.value=''" onblur="if(this.value=='')this.value='Логин'" name='username' value='Логин' class='text_input' />
+                <input type='text' onFocus="if(this.value=='Пароль')this.value=''" onblur="if(this.value=='')this.value='Пароль'" name='password' value='Пароль' class='text_input' />
+                <input type='submit' value='' id='login' name='login' />
+            </form>
+        </div>
+    </div>
+
+
+
+</main>
+
+<footer>
+    Ломеко Геннадий Сергеевич<br>
+    гр. 582471<br>
+    велком: 80YY XXX XX XX
+</footer>
+</body>
+
+</html>
